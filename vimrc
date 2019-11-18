@@ -17,7 +17,7 @@ set nowrap
 set sidescroll=1
 set sidescrolloff=20
 set listchars+=precedes:<,extends:>
-set whichwrap="<,>,b,s"
+set whichwrap=<,>,[,],b,s
 
 set showcmd
 
