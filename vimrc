@@ -20,6 +20,7 @@ set listchars+=precedes:<,extends:>
 set whichwrap=<,>,[,],b,s
 
 set showcmd
+set incsearch
 
 " haskell-vim settings
 let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
@@ -49,7 +50,6 @@ highlight haskellDelimiter ctermfg=Blue cterm=bold
 highlight haskellSeparator ctermbg=DarkGray cterm=bold
 highlight haskellDecl ctermfg=Green cterm=bold
 highlight haskellDeclKeyword ctermfg=Green cterm=bold
-highlight haskellSpecialOperators ctermfg=Magenta
+highlight haskellSpecialOperators ctermfg=DarkGreen
 highlight haskellLineComment ctermfg=DarkGray
 highlight haskellBlockComment ctermfg=DarkGray
-
