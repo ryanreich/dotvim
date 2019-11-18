@@ -33,6 +33,7 @@ let g:haskell_backpack = 0                " to enable highlighting of backpack k
 let g:haskell_indent_if = 0
 let g:haskell_indent_let = 3
 let g:haskell_indent_in = 1
+let g:haskell_indent_open_brace = 0
 let g:haskell_indent_where = 6
 let g:haskell_indent_before_where = 2
 let g:haskell_indent_after_bare_where = 2
@@ -49,4 +50,6 @@ highlight haskellSeparator ctermbg=DarkGray cterm=bold
 highlight haskellDecl ctermfg=Green cterm=bold
 highlight haskellDeclKeyword ctermfg=Green cterm=bold
 highlight haskellSpecialOperators ctermfg=Magenta
+highlight haskellLineComment ctermfg=DarkGray
+highlight haskellBlockComment ctermfg=DarkGray
 

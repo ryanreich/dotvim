@@ -1,3 +1,6 @@
 [submodule "haskell-vim"]
 	path = bundle/haskell-vim
 	url = git@github.com:ryanreich/haskell-vim
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = git@github.com:Raimondi/delimitMate.git
