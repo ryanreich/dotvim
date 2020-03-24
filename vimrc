@@ -15,7 +15,7 @@ set shiftwidth=2
 set textwidth=80
 set nowrap
 set sidescroll=1
-set sidescrolloff=20
+set sidescrolloff=5
 set listchars+=precedes:<,extends:>
 set whichwrap=<,>,[,],b,s
 
