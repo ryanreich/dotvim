@@ -53,3 +53,8 @@ highlight haskellDeclKeyword ctermfg=Green cterm=bold
 highlight haskellSpecialOperators ctermfg=DarkGreen
 highlight haskellLineComment ctermfg=DarkGray
 highlight haskellBlockComment ctermfg=DarkGray
+
+" delimiteMate settings
+let delimitMate_expand_cr = 2
+let delimitMate_expand_space = 1
+let delimitMate_jump_expansion = 1
