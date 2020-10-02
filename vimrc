@@ -19,8 +19,10 @@ set sidescrolloff=5
 set listchars+=precedes:<,extends:>
 set whichwrap=<,>,[,],b,s
 
+set ruler
 set showcmd
 set incsearch
+set hlsearch
 
 " haskell-vim settings
 let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
