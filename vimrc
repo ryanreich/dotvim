@@ -23,6 +23,7 @@ set ruler
 set showcmd
 set incsearch
 set hlsearch
+set hidden
 
 " Cursor in terminal
 " https://vim.fandom.com/wiki/Configuring_the_cursor
@@ -77,3 +78,12 @@ highlight haskellBlockComment ctermfg=DarkGray
 let delimitMate_expand_cr = 2
 let delimitMate_expand_space = 1
 let delimitMate_jump_expansion = 1
+
+" vimtex settings
+let g:vimtex_view_general_viewer = 'okular'
+let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
+let g:vimtex_view_general_options_latexmk = '--unique'
+if empty(v:servername) && exists('*remote_startserver')
+    call remote_startserver('VIM-TEX')
+endif
+call system('xdotool getactivewindow > /tmp/vim_wid.txt')
